@@ -12,9 +12,9 @@ h2{font-size:20px;margin:34px 0 8px}
 h3{font-size:17px;margin:22px 0 6px}
 p,li{color:var(--tx)}
 .mut{color:var(--mut);font-size:14px}
-.lang{font-size:14px;margin:0 0 22px}
-.lang a,.lang b{margin-right:10px}
+.lang{font-size:14px;margin:0 0 22px;display:flex;flex-wrap:wrap;gap:6px 14px}
 table{border-collapse:collapse;width:100%;font-size:15px;margin:10px 0}
+td,th{overflow-wrap:anywhere}
 th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
 th{background:var(--card)}
 .games{display:grid;gap:14px;margin:18px 0}
